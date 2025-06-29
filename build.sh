@@ -8,3 +8,6 @@ for f in ${FILES}; do
 	qmk import-keymap ${f}
 	qmk compile -kb ${KEYBOARD} -km ${KEYMAP}
 done
+
+#qmk flash -m TEENSY2 ergodox_ez_base_ergodox_ez_base_ergodox_ez_base_ergodox_ez_base_2025-06-29_dvorak_layout.hex
+#qmk flash kradoindustries_promenade_kradoindustries_promenade_layout_1x2u_2025-06-29_dvorak_layer.hex
